@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promotional Site with GSAP</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Hero Section -->
+  <header class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-center py-20 px-5">
+    <h1 class="text-5xl font-extrabold leading-tight mb-4">Welcome to Our Promotion</h1>
+    <p class="text-lg mb-6">Experience seamless animations and smooth interactions!</p>
+    <a href="#section1" class="bg-white text-blue-600 font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-gray-200">Get Started</a>
+  </header>
+
+  <!-- Marquee Section -->
+  <div class="overflow-hidden whitespace-nowrap bg-gray-200 py-4">
+    <p class="marquee text-xl font-bold text-gray-600">This is a marquee scrolling from right to left. Keep scrolling to explore more! &bull; </p>
+  </div>
+
+  <!-- Main Sections -->
+  <main class="container mx-auto py-10 px-5">
+    <section class="section bg-white p-8 mb-10 rounded shadow-md" id="section1">
+      <h2 class="text-3xl font-semibold mb-4">Section 1: Introduction</h2>
+      <p>Discover how our animations bring your site to life. Scroll down to explore more!</p>
+    </section>
+    <section class="section bg-white p-8 mb-10 rounded shadow-md" id="section2">
+      <h2 class="text-3xl font-semibold mb-4">Section 2: Features</h2>
+      <p>Our features are designed to be interactive and engaging for all users.</p>
+    </section>
+    <section class="section bg-white p-8 rounded shadow-md" id="section3">
+      <h2 class="text-3xl font-semibold mb-4">Section 3: Benefits</h2>
+      <p>Enhance user experience with smooth animations and responsive design.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
